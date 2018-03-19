@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding-top: 70px;
+  }
+  /*
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }*/
+  
+  img {
+    margin-bottom: 5%;
+  }
+  
+  .underline {
+    border-bottom: 3px solid;
+    padding-bottom: 1%;
+    
+  }
+  
+  .content1 {
+    margin-top: 3%;
+    }
+  
+  .content2 {
+    margin-top: 3%;
+    }
+  
+  .content3 {
+    margin-top: 3%;
+    }
+  
+  .btn {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    float: right;
+  }
+  
+  #name:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-item:hover {
+    color: black;
+    font-weight: bold;
+  }
+  
+  :target:before {
+  content:"";
+  display:block;
+  height:110px; /* fixed header height*/
+  margin:-110px 0 0; /* negative fixed header height */
+  }
+  
+  #name, .nav-link {
+    font-weight: bold;
+  }
+  
+  #footer {
+    background-color: #f8f9fa!important;
+    height: 20%;
+    margin-top: 10%;
+  }
+  
+  .footer-text1 {
+    margin-top: 4%;
+    line-height: 0.5;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer-text2 {
+    line-height: 0.5;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .peter {
+    font-weight: bold;
+  }
+  
+  .code-camp, .code-camp:hover, .peter-linkedin, .peter-linkedin:hover {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }

@@ -1,0 +1,8 @@
+#anchor a{
+    text-decoration: none;
+    color: red;
+}
+a {
+    text-decoration: none !important;
+    text-decoration-color: red !important;
+}
