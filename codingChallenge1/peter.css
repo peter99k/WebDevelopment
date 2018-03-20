@@ -1,0 +1,174 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+/*create a jumbotron and assign an image for the background*/
+.jumbotron {
+    background-size: cover;
+    background-image:url('images/keyboard-white.jpg');
+    height: 100vh;
+    color: black !important;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+}
+
+/*get rid of the margins - to make sure the body takes up the entire space of the window */
+body {
+    margin: 0;
+}
+
+/*make the picture of Peter round*/
+img, #peter{
+    border-radius: 50%;
+    width: 50%; 
+    length: 50%;
+}
+
+.lead p {
+    font-weight: bold;
+    
+}
+
+.lead {
+    margin-top: 2%;
+}
+/*
+.newVersion, display-4{
+    text-decoration: underline;
+}
+*/
+.first, display-4 {
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+.container {
+    margin-top: 5%;
+    /*position: relative;*/
+}
+
+.btn {
+    margin-top: 2%;
+}
+
+.table {
+    margin-top: 5%;
+}
+
+.row {
+    margin-top: 2%;
+}
+
+.fas {
+    float: left;
+}
+
+.fab {
+    float: left;
+}
+
+.row {
+    margin-top: 5% !important;
+}
+
+.contact {
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.align topnav{
+    padding-top: 5%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#bottom {
+    color: black;
+    
+}
+
+#top {
+    font-size: 75%;
+    padding-top: 5%;
+    display: inline-block;
+}
+
+:target:before {
+    content:"";
+    display:block;
+    height:120px; /* fixed header height*/
+    margin:-120px 0 0; /* negative fixed header height */
+}
+
+.underline {
+    border-bottom: 5px solid;
+    padding-bottom: 0.5%;
+}
+
+.display-4, first {
+    /*padding-top: 10%;*/
+}
+
+.align {
+    /*top: 50%;
+    left: 50%;
+    position: relative;*/
+    transform: translate(25%, 65%);
+}
+
+#email {
+    padding-left: 5% !important;
+    color: black;
+}
+
+#linkedin {
+    padding-left: 5% !important;
+    color: black;
+}
+
+#footer {
+    background-color: black !important;
+    color: white;
+    height: 20vh;
+    margin-top: 10%;
+    overflow: hidden;
+    width: 100vw !important;
+    margin-left: -20%;
+   
+}
+
+.code-camp, .code-camp:hover, .peter-linkedin, .peter-linkedin:hover {
+    color: white;
+    text-decoration: none;
+}
