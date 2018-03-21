@@ -54,3 +54,16 @@ function validateOccupation() {
         return false;
     }
 }
+
+//checks whether the person is between 20 and 40 years old
+function checkAge(age) {
+    var result;
+    if((document.getElementById("age").value > 20) && (document.getElementById("age").value < 40)) {
+        result = true;
+        document.getElementById("displayTwo").innerHTML = result;
+    }
+    else {
+        result = false;
+        document.getElementById("displayTwo").innerHTML = result;
+    }
+} 
