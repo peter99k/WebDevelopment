@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type = "text/javascript" src="challenge3.js"></script>
+    <title>Challenge3</title>
+</head>
+<body>
+    <p>Create a series of textboxes and buttons that let you create a Person object with
+            data from the textboxes, output your Person object, as well as edit your Person
+            object.
+    </p>
+    <h3>Create Person Form</h3>
+    <form id="frm1">
+        Name:<br>
+        <input type="text" name="fname" id="name"><br>
+        Age:<br>
+        <input type="text" name="fage" id="age"><br>
+        Occupation:<br>
+        <input type="text" name="foccupation" id="occupation"><br>
+        <br>
+        <input type="button" onclick="createPerson()" value="Create Person"><br>
+        <br>
+        <input type="button" onclick="displayPerson()" value="Display"><br>
+        <br>
+        <input type="button" onclick="" value="Edit Person"><br>
+    </form>
+    <br><br>
+    <h3>Display person below:</h3>
+    <p id="display"></p>
+    
+</body>
+</html>
