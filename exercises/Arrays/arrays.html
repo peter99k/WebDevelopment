@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../Arrays/arrays.css">
+    <script src="arrays.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercise Arrays</h1>
+    <h3>Adding strings to arrays</h3>
+    <form id="frm1">
+        Insert the 1st string in the box below:<br>
+        <br>
+        <input type="text" name="str" id="inputOne" style="width: 30%;"><br>
+        <br>
+        Insert the 2nd string in the box below:<br>
+        <br>
+        <input type="text" name="str" id="inputTwo" style="width: 30%;"><br>
+        <br>
+        Insert the 3rd string in the box below:<br>
+        <br>
+        <input type="text" name="str" id="inputThree" style="width: 30%;"><br>
+        <br>
+        <input type="button" onclick="displayArray()" value="Display array"><br>
+    </form>
+    <br>
+    <h3>Display array of strings:</h3>
+    <p id="display"></p>
+    <br><br>
+    <form id="frm2">
+        Enter another string below:<br>
+        <br>
+        <input type="text" name="newStr" id="inputFour" style="width: 30%;"><br>
+        <br>
+        <input type="button" onclick="addAnother()" value="Display new array"><br>
+        <br>
+    </form>
+    <h3>Display new array:</h3>
+    <p id="displayTwo"></p>
+    <br>
+    
+    <form id="frm2">
+        <h3>Remove the last string and display the array:</h3>
+        <br>
+        <input type="button" onclick="removeLastElement()" value="Remove and display" id="remove"><br>
+        <br>
+    </form>
+    <h3>Display new array:</h3>
+    <p id="displayThree"></p>
+    <br><br>
+    
+    
+</body>
+</html>

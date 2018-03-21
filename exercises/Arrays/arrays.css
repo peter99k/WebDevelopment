@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+}
+
+#display {
+    color: blue;
+}
+
+#bold, p {
+    font-weight: bold;
+    color: blue;
+}
+
+#remove, button {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
