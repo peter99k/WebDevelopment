@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../FizzBuzz/fizzbuzz.css">
+    <script type = "text/javascript" src="fizzbuzz.js"></script>
+    <title>FizzBuzz Exercise</title>
+</head>
+<body>
+    <h1>Fizz Buzz</h1>
+    <h3>Please refresh the page after each time the task has been run.</h3>
+    <form id="frm1">
+        Enter the number below (this will be the number of iterations the loop will do):<br>
+        <br>
+        <input type="text" name="num" id="inputOne" style="width: 10%;"><br>
+        <br>
+        Enter the word that will be output if the number is divisible by 3:<br>
+        <br>
+        <input type="text" name="str" id="inputTwo" style="width: 10%;"><br>
+        <br>
+        Enter the word that will be output if the number is divisible by 5:<br>
+        <br>
+        <input type="text" name="str" id="inputThree" style="width: 10%;"><br>
+        <br>
+        <input type="button" onclick="displayIterations()" value="Run task"><br>
+    </form>
+    <br>
+    <h3>Display iterations:</h3>
+    <p id="display"></p>
+    <br><br>
+</body>
+</html>
