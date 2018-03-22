@@ -1,0 +1,12 @@
+h1, #display {
+    color: red;
+}
+
+/* #display {
+    color: blue;
+} */
+
+#underline {
+    text-decoration: underline;
+    padding-top: 5px;
+}
